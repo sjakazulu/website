@@ -1,0 +1,149 @@
+body {
+    font-family: helvetica,arial,sans-serif;
+    background-color: black;
+    font-style: normal;
+}
+
+nav {
+    justify-content: space-around;
+    
+}
+
+a.logo {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    background-image: url("../Images/modernwarfare.png");
+    background-size: 100px 50px;
+}
+
+
+.max {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.btn {
+    background-image: linear-gradient(to right,#ccc,#202124);
+    display: inline-block;
+    width: 20%;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-align: center;
+    
+}
+
+.main {
+    display: flex;  
+    flex-direction: column;
+    text-align: center;
+    background-image: url(../Images/imagemodern.jpg);
+    background-size: 500px 400px;
+}
+
+h1 {
+    color: #94918D;
+    font-weight: bolder;
+    font-size: 2em;
+    display: inline-block;
+    
+}
+
+h2 {
+color: rgb(143, 143, 134);
+font-weight: bold;
+font-size: 1.5em;
+}
+
+p {
+    color: rgb(111, 117, 111);
+    font-size: 1em;
+}
+
+.right {
+    text-align: right;
+    
+}
+
+.li {
+    color: rgb(85, 83, 83);
+}
+
+a:hover {
+    color: red;
+}
+
+
+a:link {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+th {
+    color: gold;
+    letter-spacing: 0.2em;
+}
+
+td {
+    color: grey;
+   
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    line-height: 3em;
+}
+
+caption {
+    color: grey;
+    font-size: 2em;
+}
+
+.bob {
+    margin-top: 2em;
+    
+    
+}
+
+h3 {
+    color: grey;
+}
+
+.game {
+    text-align: center;
+}
+
+.multiplayer {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.warzone {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.special_ops {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.campaign {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+@media (min-width:520px) {
+    .main {
+        background-size: cover;
+    }
+
+    .btn {
+        width: 35%;
+        
+    }
+}
